@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Github, ArrowUp, Sparkles, BookOpen, Shield } from 'lucide-react';
+import { Github, ArrowUp, Sparkles, BookOpen, Shield } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -90,7 +90,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#9e9789] font-mono">
           <p className="flex items-center gap-1.5">
-            Crafted for Android power-users with <Heart className="w-3.5 h-3.5 text-[#f87171] fill-[#f87171]" /> and PostHog design inspiration.
+            © {new Date().getFullYear()} Shizuku Web Companion • Privileged Android Tools
           </p>
 
           <button

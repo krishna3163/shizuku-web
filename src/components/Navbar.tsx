@@ -1,5 +1,5 @@
 import React from 'react';
-import { Smartphone, Github, Sparkles, Terminal, Download, ShieldCheck, Layers } from 'lucide-react';
+import { Smartphone, Github, Sparkles, Terminal, Download, ShieldCheck, Layers, BookOpen } from 'lucide-react';
 
 interface NavbarProps {
   onOpenTerminal: () => void;
@@ -46,6 +46,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenTerminal, authorizedCount 
           <a href="#security" className="hover:text-[#f5a623] transition-colors flex items-center gap-1.5">
             <ShieldCheck className="w-4 h-4 text-[#f5a623]" />
             Why Not Root?
+          </a>
+          <a href="#readme" className="hover:text-[#f5a623] transition-colors flex items-center gap-1.5">
+            <BookOpen className="w-4 h-4 text-[#f5a623]" />
+            Docs & README
           </a>
           <button 
             onClick={onOpenTerminal}

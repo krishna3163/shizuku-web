@@ -4,6 +4,7 @@ import { Hero } from './components/Hero';
 import { SetupWizard } from './components/SetupWizard';
 import { AppsDirectory } from './components/AppsDirectory';
 import { ArchitectureComparison } from './components/ArchitectureComparison';
+import { ReadmeViewer } from './components/ReadmeViewer';
 import { InteractiveTerminal } from './components/InteractiveTerminal';
 import { Footer } from './components/Footer';
 import { APPS_DATA, ShizukuApp } from './data/appsData';
@@ -100,6 +101,9 @@ export function App() {
 
       {/* Why Not Root Security Breakdown */}
       <ArchitectureComparison />
+
+      {/* Live Synced README & Docs */}
+      <ReadmeViewer onCopyText={handleCopyText} />
 
       {/* Footer */}
       <Footer />

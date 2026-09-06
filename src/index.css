@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #fcfaf6;
+    color: #1d1b16;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* PostHog Retro Tech Neo-Brutalist Details */
+.posthog-box {
+  background-color: #ffffff;
+  border: 2px solid #1d1b16;
+  box-shadow: 4px 4px 0px #1d1b16;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.posthog-box:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0px #1d1b16;
+}
+
+.posthog-btn-yellow {
+  background-color: #ffd000;
+  color: #1d1b16;
+  border: 2px solid #1d1b16;
+  box-shadow: 3px 3px 0px #1d1b16;
+  font-weight: 700;
+  transition: all 0.1s ease-in-out;
+}
+
+.posthog-btn-yellow:hover {
+  background-color: #ffdc33;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px #1d1b16;
+}
+
+.posthog-btn-yellow:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #1d1b16;
+}
+
+.posthog-btn-white {
+  background-color: #ffffff;
+  color: #1d1b16;
+  border: 2px solid #1d1b16;
+  box-shadow: 3px 3px 0px #1d1b16;
+  font-weight: 700;
+  transition: all 0.1s ease-in-out;
+}
+
+.posthog-btn-white:hover {
+  background-color: #f4f0e6;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px #1d1b16;
+}
+
+.posthog-btn-white:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #1d1b16;
+}
+
+/* Retro Highlighter Pen Underline */
+.posthog-highlight {
+  background: linear-gradient(180deg, rgba(255, 208, 0, 0) 60%, #ffd000 60%);
+  padding: 0 4px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f0e6;
+  border-left: 2px solid #1d1b16;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffd000;
+  border: 2px solid #1d1b16;
+}

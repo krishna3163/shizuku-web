@@ -78,6 +78,43 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToSetup, onOpenTerminal, onC
               </button>
             </div>
 
+            {/* Ecosystem Quick Links (F-Droid, Obtainium, Telegram Chat) */}
+            <div className="flex flex-wrap items-center gap-2.5 pt-1 text-xs font-mono font-bold">
+              <span className="text-[#666053]">Feeds & Chat:</span>
+              <a
+                href="https://krishna3163.github.io/best_shizuku_apps_for_android_no_root/fdroid/repo"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-[#ffffff] hover:bg-[#fff9db] text-[#1d1b16] border border-[#1d1b16] px-2.5 py-1 rounded shadow-brutal-sm flex items-center gap-1.5 transition-all"
+              >
+                <span>📦 F-Droid Repo</span>
+              </a>
+              <a
+                href="https://krishna3163.github.io/best_shizuku_apps_for_android_no_root/obtainium.json"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-[#ffffff] hover:bg-[#fff9db] text-[#1d1b16] border border-[#1d1b16] px-2.5 py-1 rounded shadow-brutal-sm flex items-center gap-1.5 transition-all"
+              >
+                <span>📥 Obtainium Feed</span>
+              </a>
+              <a
+                href="https://t.me/kk3163019"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-[#2CA5E0] hover:bg-[#208bc2] text-white border border-[#1d1b16] px-2.5 py-1 rounded shadow-brutal-sm flex items-center gap-1.5 transition-all"
+              >
+                <span>✈️ Telegram Chat</span>
+              </a>
+              <a
+                href="https://github.com/krishna3163/best_shizuku_apps_for_android_no_root/discussions"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-[#ffffff] hover:bg-[#fff9db] text-[#1d1b16] border border-[#1d1b16] px-2.5 py-1 rounded shadow-brutal-sm flex items-center gap-1.5 transition-all"
+              >
+                <span>💬 Discussions</span>
+              </a>
+            </div>
+
             {/* Quick 1-Click ADB Terminal Snippet */}
             <div className="pt-4">
               <div className="text-xs font-mono font-bold text-[#666053] mb-1.5 flex items-center justify-between">

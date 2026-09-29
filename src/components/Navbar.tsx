@@ -51,6 +51,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenTerminal, authorizedCount 
             <BookOpen className="w-4 h-4 text-[#f5a623]" />
             Docs & README
           </a>
+          <a href="https://github.com/krishna3163/best_shizuku_apps_for_android_no_root/discussions" target="_blank" rel="noreferrer" className="hover:text-[#f5a623] transition-colors flex items-center gap-1.5">
+            <Sparkles className="w-4 h-4 text-[#f5a623]" />
+            Community
+          </a>
           <button 
             onClick={onOpenTerminal}
             className="hover:text-[#f5a623] transition-colors flex items-center gap-1.5 text-[#1d1b16] font-mono text-xs bg-[#f4f0e6] px-2.5 py-1 rounded border border-[#1d1b16] shadow-brutal-sm active:translate-x-0.5 active:translate-y-0.5"

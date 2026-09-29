@@ -3,6 +3,10 @@
 [![CI/CD Auto-Deploy](https://github.com/krishna3163/shizuku-web/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/krishna3163/shizuku-web/actions)
 [![Live Production](https://img.shields.io/badge/Render-Live%20Production-success?style=flat&logo=render)](https://shizuku-web.onrender.com)
 [![License](https://img.shields.io/badge/License-GPL--3.0-yellow.svg)](LICENSE)
+<br>
+[![Telegram](https://img.shields.io/badge/Telegram-@kk3163019-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/kk3163019)
+[![Instagram](https://img.shields.io/badge/Instagram-@krishna.0858-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/krishna.0858/?hl=en)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Krishna-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishna0858/)
 
 A modern, neo-brutalist web application & interactive companion for **[Shizuku](https://shizuku.rikka.app)** (the privileged Android API framework by Rikka).
 
@@ -76,6 +80,16 @@ Explore our curated network of Android power-user tools, root modules, web compa
 * 🛡️ **[Best Root Apps for Android](https://github.com/krishna3163/best-root-apps-for-android)** — 500+ curated root apps, Magisk/KernelSU/APatch modules, and rooting guides.
 * ⚡ **[Shizuku Web Portal](https://github.com/krishna3163/shizuku-web)** ([Live App](https://shizuku-web.onrender.com)) — Modern PostHog-styled web companion, ADB setup wizard, and app directory.
 * 📱 **[Awesome Android App Repositories](https://github.com/krishna3163/awesome-android-app-repositories)** — Constantly updated catalog of open-source Android apps, utilities, and developer tools.
+
+---
+
+## 📬 Connect with Maintainer
+
+Have questions, suggestions, or want to collaborate? Connect directly:
+
+- ✈️ **Telegram**: [@kk3163019](https://t.me/kk3163019)
+- 📸 **Instagram**: [@krishna.0858](https://www.instagram.com/krishna.0858/?hl=en)
+- 💼 **LinkedIn**: [Krishna on LinkedIn](https://www.linkedin.com/in/krishna0858/)
 
 ---
 

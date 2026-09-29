@@ -100,6 +100,11 @@ export const Footer: React.FC = () => {
             <h4 className="font-bold text-[#ffd000] uppercase tracking-wider">Connect & Chat</h4>
             <ul className="space-y-2 text-[#e2ded6]">
               <li>
+                <a href="https://t.me/krishna0858bot" target="_blank" rel="noreferrer" className="hover:text-[#ffd000] transition-colors flex items-center gap-1.5">
+                  <span>🤖 Bot: @krishna0858bot</span>
+                </a>
+              </li>
+              <li>
                 <a href="https://t.me/kk3163019" target="_blank" rel="noreferrer" className="hover:text-[#ffd000] transition-colors flex items-center gap-1.5">
                   <span>✈️ Telegram: @kk3163019</span>
                 </a>

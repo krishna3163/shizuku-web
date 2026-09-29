@@ -98,10 +98,18 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToSetup, onOpenTerminal, onC
                 <span>📥 Obtainium Feed</span>
               </a>
               <a
-                href="https://t.me/kk3163019"
+                href="https://t.me/krishna0858bot"
                 target="_blank"
                 rel="noreferrer"
                 className="bg-[#2CA5E0] hover:bg-[#208bc2] text-white border border-[#1d1b16] px-2.5 py-1 rounded shadow-brutal-sm flex items-center gap-1.5 transition-all"
+              >
+                <span>🤖 Telegram Bot</span>
+              </a>
+              <a
+                href="https://t.me/kk3163019"
+                target="_blank"
+                rel="noreferrer"
+                className="bg-[#ffffff] hover:bg-[#fff9db] text-[#1d1b16] border border-[#1d1b16] px-2.5 py-1 rounded shadow-brutal-sm flex items-center gap-1.5 transition-all"
               >
                 <span>✈️ Telegram Chat</span>
               </a>

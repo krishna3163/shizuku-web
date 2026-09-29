@@ -1,0 +1,31 @@
+{
+  "name": "Shizuku Apps Catalog & APK Mirror",
+  "short_name": "Shizuku Apps",
+  "description": "Discover 540+ curated Android Shizuku (no-root) & Root apps with verified APK mirrors, debloaters, firewalls, and power-user utilities.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fcfaf6",
+  "theme_color": "#ffd000",
+  "orientation": "portrait-primary",
+  "categories": ["utilities", "tools", "productivity"],
+  "icons": [
+    {
+      "src": "/shizuku-droplet.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Apps",
+      "url": "/#apps",
+      "description": "Browse 540+ curated Android apps"
+    },
+    {
+      "name": "Setup Wizard",
+      "url": "/#setup",
+      "description": "Wireless ADB and USB pairing guide"
+    }
+  ]
+}

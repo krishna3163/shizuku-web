@@ -3,14 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/shizuku-droplet.svg" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shizuku — Superpowers for Android Apps (Without Root)</title>
+    
+    <!-- Primary SEO Metadata -->
+    <title>Best Shizuku Apps for Android (No Root) — 540+ Curated Tools & APK Mirrors</title>
+    <meta name="description" content="Discover 540+ top Shizuku apps for Android without root: debloaters (Canta), firewalls (Athena), app freezers (Hail), wireless ADB tools, and automated APK mirrors with checksums." />
+    <meta name="keywords" content="best shizuku apps 2026, shizuku apps without root, debloat android without root, wireless adb tools android, canta debloater apk, hail app freezer, athena firewall shizuku, termux rish shizuku, android root alternatives, hyperos debloat shizuku, samsung one ui shizuku, obtainium feed shizuku, f-droid shizuku repo" />
+    <meta name="author" content="Krishna (@kk3163019)" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://shizuku-web.onrender.com" />
+
+    <!-- PWA & Mobile Capabilities -->
+    <meta name="theme-color" content="#ffd000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Shizuku Apps" />
+    <link rel="apple-touch-icon" href="/shizuku-droplet.svg" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shizuku-web.onrender.com" />
+    <meta property="og:title" content="Best Shizuku Apps for Android (No Root) — 540+ Curated Tools" />
+    <meta property="og:description" content="Explore the top open-source Shizuku apps, no-root debloaters, system firewalls, and verified APK mirrors for Android." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/krishna3163/best_shizuku_apps_for_android_no_root/main/assets/banner.png" />
+    <meta property="og:site_name" content="Shizuku Web Companion" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://shizuku-web.onrender.com" />
+    <meta name="twitter:title" content="Best Shizuku Apps for Android (No Root) — 540+ Curated Tools" />
+    <meta name="twitter:description" content="Discover curated Android Shizuku apps, wireless ADB utilities, and direct APK mirrors." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/krishna3163/best_shizuku_apps_for_android_no_root/main/assets/banner.png" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Schema.org JSON-LD for AI Search & Google Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "Shizuku Web Companion & App Catalog",
+          "operatingSystem": "Android",
+          "applicationCategory": "UtilitiesApplication",
+          "description": "Comprehensive curated catalog and verified APK mirror for Android apps leveraging Shizuku privileged system APIs without root.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Krishna",
+            "url": "https://github.com/krishna3163"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "name": "Best Shizuku Apps for Android",
+          "url": "https://shizuku-web.onrender.com",
+          "description": "540+ verified Android Shizuku apps, APK mirrors, and debloating tools."
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="bg-[#fcfaf6] text-[#1d1b16] antialiased selection:bg-[#ffd000] selection:text-[#1d1b16]">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- PWA Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').then((reg) => {
+            console.log('Shizuku PWA Service Worker registered successfully:', reg.scope);
+          }).catch((err) => {
+            console.log('Service Worker registration failed:', err);
+          });
+        });
+      }
+    </script>
   </body>
 </html>

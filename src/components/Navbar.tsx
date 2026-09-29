@@ -1,5 +1,5 @@
-import React from 'react';
-import { Smartphone, Github, Sparkles, Terminal, Download, ShieldCheck, Layers, BookOpen } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Smartphone, Github, Sparkles, Terminal, Download, ShieldCheck, Layers, BookOpen, DownloadCloud } from 'lucide-react';
 
 interface NavbarProps {
   onOpenTerminal: () => void;
@@ -7,6 +7,28 @@ interface NavbarProps {
 }
 
 export const Navbar: React.FC<NavbarProps> = ({ onOpenTerminal, authorizedCount }) => {
+  const [installPrompt, setInstallPrompt] = useState<any>(null);
+
+  useEffect(() => {
+    const handler = (e: any) => {
+      e.preventDefault();
+      setInstallPrompt(e);
+    };
+    window.addEventListener('beforeinstallprompt', handler);
+    return () => window.removeEventListener('beforeinstallprompt', handler);
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (!installPrompt) {
+      alert("To install this app on your phone: Tap browser menu (⋮) -> 'Add to Home screen' or 'Install app'.");
+      return;
+    }
+    installPrompt.prompt();
+    const { outcome } = await installPrompt.userChoice;
+    if (outcome === 'accepted') {
+      setInstallPrompt(null);
+    }
+  };
   return (
     <header className="sticky top-0 z-50 bg-[#fcfaf6]/95 backdrop-blur-md border-b-2 border-[#1d1b16]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
@@ -82,6 +104,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenTerminal, authorizedCount 
             <Github className="w-4 h-4" />
             <span>18.4k</span>
           </a>
+
+          {/* PWA Install Button */}
+          <button
+            onClick={handleInstallClick}
+            title="Install Shizuku App on Android / Desktop"
+            className="flex items-center gap-1.5 bg-[#ffffff] hover:bg-[#fff9db] border-2 border-[#1d1b16] px-3 py-1.5 rounded-lg shadow-brutal-sm hover:shadow-brutal transition-all font-mono text-xs font-bold text-[#1d1b16]"
+          >
+            <DownloadCloud className="w-4 h-4 text-[#f5a623]" />
+            <span className="hidden sm:inline">Install App</span>
+          </button>
 
           {/* Download Button */}
           <a 

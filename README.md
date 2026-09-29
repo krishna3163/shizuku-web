@@ -68,6 +68,17 @@ npm run build
 
 ---
 
+## 🌐 Related Repositories & Android Ecosystem
+
+Explore our curated network of Android power-user tools, root modules, web companions, and open-source application repositories:
+
+* 🚀 **[Best Shizuku Apps (No Root)](https://github.com/krishna3163/best_shizuku_apps_for_android_no_root)** — Curated catalog of Android apps utilizing Shizuku & Wireless ADB for rootless system control and debloating.
+* 🛡️ **[Best Root Apps for Android](https://github.com/krishna3163/best-root-apps-for-android)** — 500+ curated root apps, Magisk/KernelSU/APatch modules, and rooting guides.
+* ⚡ **[Shizuku Web Portal](https://github.com/krishna3163/shizuku-web)** ([Live App](https://shizuku-web.onrender.com)) — Modern PostHog-styled web companion, ADB setup wizard, and app directory.
+* 📱 **[Awesome Android App Repositories](https://github.com/krishna3163/awesome-android-app-repositories)** — Constantly updated catalog of open-source Android apps, utilities, and developer tools.
+
+---
+
 ## 📜 Credits & License
 - **Framework Inspiration**: [RikkaApps / Shizuku](https://github.com/RikkaApps/Shizuku)
 - **Design Inspiration**: [PostHog](https://posthog.com)
